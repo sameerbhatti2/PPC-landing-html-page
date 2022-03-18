@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.6rem;
+    font-family: sans-serif;
+}
+header{
+    background-color: rgba(00, 00, 00, .5);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.logo{
+    margin: .5rem .2rem;
+}
+
+
+
+#logo{
+    width: 20rem;
+    padding: 0rem;
+    margin: 0rem;
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    padding: 2.2rem;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0rem 1.6rem;
+}
+nav ul li a:hover{
+    color: #9ca708;
+    /* padding: 1rem 0rem; */
+}
+
+.call-us{
+    color: blanchedalmond;
+    position: absolute;
+    right: 3%;
+    cursor: pointer;
+}
+.home{
+    background-image: url('../img/software.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80rem;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cornsilk;
+}
+#txthome{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 4.2rem;
+    font-weight: bolder;
+    letter-spacing: 4rem;
+    color: rgb(255, 232, 187);
+}
+#call-us-txt {
+    display: flex;
+    text-align: center;
+    line-height: 20rem;
+}
+#call-us-txt a{
+    text-decoration: none;
+    color: rgb(255, 232, 187);
+    padding: 0rem .6rem;
+}
+#call-us-icon{
+    font-size: 4rem;
+}
+.services{
+    background-image: url('../img/devops.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 65rem;
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+}
+#oltxtservices li{
+    position: relative;
+    left: 2%;
+    list-style: none;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: .6rem;
+    line-height: 4rem;
+    color: cornsilk;
+}
+#oltxtservices  #txt-we-provide{
+    font-size: 6rem;
+    font-weight: bold;
+    letter-spacing: .4rem;
+    margin-bottom: 6.5rem;
+    line-height: 8rem;
+    color: whitesmoke;
+}
+.about{
+    background-image: url('../img/paper.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: .1rem solid black;
+    width: 100%;
+    height: 65rem;
+}
+.about{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 2rem;
+    color: cornsilk;
+}
+.about #txt-about-us{
+
+    text-align: left;
+    font-size: 2rem;
+    padding: 3rem;
+    line-height: 3rem;
+    color: #000000;
+    text-decoration-line: underline;
+    text-decoration-color: wheat;
+    text-decoration-thickness: 0.2px;
+}
+.contact{
+    background-image: url('../img/contact.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: .1rem solid black;
+    width: 100%;
+    height: 65rem;
+}
+.contact{
+    display: flex;
+    align-items: center;
+}
+/* ==========form============= */
+.form{
+    width: 50%;
+    background-color: rgba(00, 00, 00, .5);
+    border: 2px black;
+    padding: 15rem 4rem 8rem 4rem;
+    border-radius: 20px;
+    margin-left: 2rem;
+}
+.form:hover {
+    background-color: rgba(3, 39, 56, 0.5);
+    border: 1px solid #000000;
+
+}
+.form #form{
+    display: flex;
+    flex-direction: column;
+}
+.form .form-input{
+    height: 3rem;
+    border-radius: 15px;
+    border: none;
+    padding: 0rem 1.6rem;
+}
+.form #form #form-name{
+    width: 30rem;
+    margin: 1rem 0rem;
+}
+.form #form #form-phone{
+    width: 30rem;
+    margin: 1rem 0rem;
+}
+.form #form #form-email{
+    width: 30rem;
+    margin: 1rem 0rem;
+}
+.form #form .form-txt-area{
+    width: 40rem;
+    max-width: 50rem;
+    height: 10rem;
+    max-height: 25rem;
+    margin: 1rem 0rem;
+    padding: 0.5rem 1.6rem;
+    border: none;
+    border-radius: 1.5rem;
+}
+#btn-submit{
+    background-color: rgba(00, 00, 00, .5);
+    color: #ffffff;
+    width: 10rem;
+    border: none;
+    border-radius: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 0.8rem 0.8rem;
+    cursor: pointer;
+}
+#btn-submit:hover{
+    background-color: rgba(238, 0, 0, 0.5);
+
+}
+#vertical-line-1{
+    border: 1px solid rgba(227, 236, 141, 0.5);
+    height: 40rem;
+    margin: 0rem 10rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+
+
+}
